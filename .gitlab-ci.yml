@@ -1,6 +1,6 @@
-stage : 
- - deploy 
-delpoy:
+stages:
+  - deploy
+deploy:
   stage: deploy 
   script:
     - nmp install
