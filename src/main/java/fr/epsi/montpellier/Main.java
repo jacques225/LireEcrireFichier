@@ -14,7 +14,6 @@ public class Main
         read("./staff.txt");
         readAgent("./staff.txt");
 
-
     }
 
     private static void ListEequip(String Filename)
@@ -79,7 +78,6 @@ public class Main
         }
     }
 
-
                                         //    Creation HTML agent
     private static void readAgent(String fileNameAgent)
     {
@@ -118,6 +116,5 @@ public class Main
         // lecture du fichier liste .txt
 
     }
-
 
 }
