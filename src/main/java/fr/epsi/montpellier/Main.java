@@ -7,7 +7,9 @@ public class Main
 {
 
     public static void main(String[] args)
+
     {
+
         ListEequip("./liste.txt");
         read("./staff.txt");
         readAgent("./staff.txt");
@@ -28,7 +30,7 @@ public class Main
             while ((line = bufferedReader.readLine()) != null)
             {
                 Liste.addOutils(line);
-                System.out.println("Ligne = " + line);
+                System.out.println("Outils = " + line);
             }
             // Fermeture
             bufferedReader.close();
@@ -116,4 +118,6 @@ public class Main
         // lecture du fichier liste .txt
 
     }
+
+
 }

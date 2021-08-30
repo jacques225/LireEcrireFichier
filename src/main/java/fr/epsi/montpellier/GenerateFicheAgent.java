@@ -7,20 +7,18 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GenerateFicheAgent
-{
+public class GenerateFicheAgent {
     private String filename;
     private String agent;
-    private List<String> identifiantsAgent = new ArrayList<>();
-    private List<String> ListeEquip = new ArrayList<>();
+    private final List<String> identifiantsAgent = new ArrayList<>();
+    private final List<String> ListeEquip = new ArrayList<>();
 
-    public GenerateFicheAgent(String filename)
-    {
+    public GenerateFicheAgent(String filename) {
         this.filename = filename;
 
     }
-    public GenerateFicheAgent()
-    {
+
+    public GenerateFicheAgent() {
         this.filename = filename;
     }
 
@@ -66,10 +64,11 @@ public class GenerateFicheAgent
         String Filename = "./liste.txt";
         BufferedReader bufferedReader = new BufferedReader(new FileReader(Filename));
         String line;
-        while ((line = bufferedReader.readLine()) != null)
-        {
-            //Ecriture.write("<BLOCKQUOTE>");
-            Ecriture.write("<div style='float:middle;margin:0 10px 0 30px;' >"+line+"</div>");
+        while ((line = bufferedReader.readLine()) != null) {
+            Ecriture.write("<div>");
+            Ecriture.write("<input type='checkbox' id='" + line + "' name='" + line + "' >");
+            Ecriture.write("<label for='" + line + "' >" + line + "</label>");
+            Ecriture.write("</div>");
         }
         Ecriture.write("</body>");
         Ecriture.write("</html>");
