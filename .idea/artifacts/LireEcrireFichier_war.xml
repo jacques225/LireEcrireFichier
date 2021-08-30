@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="LireEcrireFichier:war">
-    <output-path>$PROJECT_DIR$/out/artifacts/LireEcrireFichier_war</output-path>
-    <root id="archive" name="LireEcrireFichier_war.war">
-      <element id="artifact" artifact-name="LireEcrireFichier:war exploded" />
-    </root>
-  </artifact>
-</component>

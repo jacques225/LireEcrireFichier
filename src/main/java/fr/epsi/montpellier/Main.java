@@ -15,7 +15,6 @@ public class Main
         readAgent("./staff.txt");
 
     }
-
     private static void ListEequip(String Filename)
     {
         try
@@ -38,7 +37,6 @@ public class Main
             ioException.printStackTrace();
         }
     }
-
                                                     //    Creation HTML agent
     private static void read(String fileName) {
         try {
@@ -60,8 +58,6 @@ public class Main
                 indexHTML.addIdentifiant(line);
 
             }
-
-
             //Fermeture
             bufferedReader.close();
             inputStreamReader.close();
@@ -102,8 +98,6 @@ public class Main
             bufferedReader.close();
             inputStreamReader.close();
             fileInputStream.close();
-
-
             //FicheAgent.generateHTML();
         }
         catch (IOException ioException) {
@@ -112,9 +106,7 @@ public class Main
         {
             exception.printStackTrace();
         }
-
         // lecture du fichier liste .txt
-
     }
 
 }

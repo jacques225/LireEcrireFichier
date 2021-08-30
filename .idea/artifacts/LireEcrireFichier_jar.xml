@@ -6,6 +6,25 @@
         <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
       </element>
       <element id="module-output" name="LireEcrireFichier" />
+      <element id="module-test-output" name="LireEcrireFichier" />
+      <element id="module-source" name="LireEcrireFichier" />
+      <element id="file-copy" path="$PROJECT_DIR$/index.html" />
+      <element id="file-copy" path="$PROJECT_DIR$/liste.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/LireEcrireFichier.iml" />
+      <element id="file-copy" path="$PROJECT_DIR$/staff.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/AcroRd32_v8kOD3555C.png" />
+      <element id="dir-copy" path="$PROJECT_DIR$/.idea" />
+      <element id="dir-copy" path="$PROJECT_DIR$/afoley" />
+      <element id="dir-copy" path="$PROJECT_DIR$/cberthier" />
+      <element id="dir-copy" path="$PROJECT_DIR$/jmacclane" />
+      <element id="dir-copy" path="$PROJECT_DIR$/jrouletabille" />
+      <element id="dir-copy" path="$PROJECT_DIR$/jwest" />
+      <element id="dir-copy" path="$PROJECT_DIR$/mriggs" />
+      <element id="dir-copy" path="$PROJECT_DIR$/out" />
+      <element id="dir-copy" path="$PROJECT_DIR$/sconnor" />
+      <element id="dir-copy" path="$PROJECT_DIR$/sholmes" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src" />
+      <element id="dir-copy" path="$PROJECT_DIR$/target" />
     </root>
   </artifact>
 </component>
