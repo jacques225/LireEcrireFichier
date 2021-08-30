@@ -5,4 +5,4 @@ deploy:
   script:
     - nmp install
     - nmp run build
-    - if["$CI_COMMIT_REF_NAME" == "master"] cp -R dist/* /var/www/monsite.com/html; fi
+    - if["$CI_COMMIT_REF_NAME" == "master"] then cp -R dist/* /var/www/monsite.com/html; fi
