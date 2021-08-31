@@ -53,13 +53,12 @@ public class GenerateFicheAgent {
            Ecriture.write("<img src='./"+agent+".png' >");
        }
        // Ecriture.write("img { class='right' border =3 width='225' height='150' alt='' title='' style='float:right;margin:0 10px 0 20px;'}");
-
         //Ecriture.write("<center>");
         Ecriture.write("<style>");
         Ecriture.write("body{ background-color: #1c87c9;}");
         Ecriture.write("</style>");
        // Ecriture.write("<center>");
-        Ecriture.write("<h2>  Liste des equipement emprunter par les agents</h2>");
+        Ecriture.write("<h2> Liste des equipement emprunter par les agents</h2>");
     //  Ecriture.write("<object border =3 style='float:middle;margin:250 10px 0 300px;' data= ./liste.txt/>");
         String Filename = "./liste.txt";
         BufferedReader bufferedReader = new BufferedReader(new FileReader(Filename));
