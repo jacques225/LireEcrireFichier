@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MSPR">
+    <output-path>$PROJECT_DIR$/out/artifacts/MSPR</output-path>
+    <root id="archive" name="MSPR.war">
+      <element id="module-output" name="LireEcrireFichier" />
+      <element id="module-test-output" name="LireEcrireFichier" />
+      <element id="module-source" name="LireEcrireFichier" />
+      <element id="file-copy" path="$PROJECT_DIR$/liste.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/AcroRd32_v8kOD3555C.png" />
+      <element id="file-copy" path="$PROJECT_DIR$/index.html" />
+      <element id="file-copy" path="$PROJECT_DIR$/staff.txt" />
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+    </root>
+  </artifact>
+</component>
