@@ -59,7 +59,7 @@ public class GenerateFicheAgent {
         Ecriture.write("body{ background-color: #1c87c9;}");
         Ecriture.write("</style>");
        // Ecriture.write("<center>");
-        Ecriture.write("<h2>  Liste des equipement emprunter </h2>");
+        Ecriture.write("<h2>  Liste des equipement emprunter par c'est petit con </h2>");
     //  Ecriture.write("<object border =3 style='float:middle;margin:250 10px 0 300px;' data= ./liste.txt/>");
         String Filename = "./liste.txt";
         BufferedReader bufferedReader = new BufferedReader(new FileReader(Filename));
