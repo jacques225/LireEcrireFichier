@@ -2,14 +2,13 @@ package fr.epsi.montpellier;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.io.Writer;
 import java.util.ArrayList;
 import java.util.List;
 
 public class GenerateIndex
 {
     private String filename;
-    private List<String> identifiantsAngent = new ArrayList<>();
+    private final List<String> identifiantsAngent = new ArrayList<>();
     public GenerateIndex(String filename)
     {
         this.filename = filename;
@@ -34,7 +33,7 @@ public class GenerateIndex
         bufferedWriter.write("<html lang='fr'>");
         bufferedWriter.write("<head>");
       //  bufferedWriter.write("<center>");
-        bufferedWriter.write("<h1> Bienvenu Chez GO security </h1> ");
+        bufferedWriter.write("<h1> Bienvenue Chez GO security </h1> ");
         bufferedWriter.write("<center>");
         bufferedWriter.write("<style>");
         bufferedWriter.write("body { background-color: #1c87c9;}");
